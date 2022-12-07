@@ -9,8 +9,10 @@
 </head>
 <body>
     <div class="container">
-        <h1>{{ $title }}</h1>
-        {{ $slot }}
+    
+    <p></p>
+    <h1 class="font-monospace">{{ $title }}</h1>
+    {{ $slot }}
     </div>
 </body>
 </html>

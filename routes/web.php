@@ -19,6 +19,7 @@ Route::get('/', function () {
 });
 
 Route::get('/crud', [CRUD::class,'index']);
+Route::get('/front-end/src/App.vue', [CRUD::class,'index']);
 Route::get('/crud/create', [CRUD::class,'create']);
 Route::post('/crud/submit', [CRUD::class,'store']);
 Route::get('/crud/delete/{id}', [CRUD::class,'delete']);

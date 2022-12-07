@@ -13,6 +13,7 @@ class CRUD extends Controller
         #dd($clients);
 
         return view('crud.index')->with('clients',$clients);
+        #return view('../../../front-end/src/App.vue')->with('clients',$clients);
     }
 
     public function create(){
